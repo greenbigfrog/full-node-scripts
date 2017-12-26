@@ -1,4 +1,4 @@
-su root
+#!/bin/bash
 apt update
 apt -y upgrade
 apt -y install htop ufw
