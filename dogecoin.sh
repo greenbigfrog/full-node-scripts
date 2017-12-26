@@ -1,7 +1,7 @@
 #!/bin/bash
 apt update
 apt -y upgrade
-apt -y install htop ufw
+apt -y install htop ufw aria2
 wget https://github.com/dogecoin/dogecoin/releases/download/v1.10.0/dogecoin-1.10.0-linux64.tar.gz
 tar -zxvf dogecoin-1.10.0-linux64.tar.gz
 mkdir ~/.dogecoin
